@@ -13,6 +13,9 @@ M.setup = function()
   vim.keymap.set("n", "<leader>a", function() require("harpoon"):list():append() end)
   vim.keymap.set("n", "<C-e>", function() require("harpoon").ui:toggle_quick_menu(require("harpoon"):list()) end)
 
+  -- Oil
+  vim.keymap.set("n", "<C-p>", "<CMD>Oil --float<CR>", opts)
+
   -- LSP
   vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
 end

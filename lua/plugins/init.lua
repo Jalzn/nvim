@@ -126,5 +126,12 @@ return {
       require("harpoon"):setup()
     end
   },
+  {
+    'stevearc/oil.nvim',
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    config = function()
+      require("plugins.oil")
+    end
+  },
   { "folke/neodev.nvim" },
 }
