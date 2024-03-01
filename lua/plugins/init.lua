@@ -28,6 +28,12 @@ return {
     end
   },
   {
+    "https://github.com/nvimtools/none-ls.nvim",
+    config = function()
+      require("plugins.null-ls")
+    end
+  },
+  {
     'hrsh7th/nvim-cmp',
     dependencies = {
       { "onsails/lspkind.nvim" },
