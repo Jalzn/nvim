@@ -18,6 +18,9 @@ Bangers plugins that I use
 - [treesitter](https://www.github.com/nvim-treesitter/nvim-treesitter)
 - [treesitter-textobjects](https://www.github.com/nvim-treesitter/nvim-treesitter-textobjects)
 - [which-key](https://www.github.com/folke/which-key.nvim)
+- [harpoon](https://github.com/ThePrimeagen/harpoon)
+- [none-ls](https://github.com/nvimtools/none-ls.nvim)
+- [oil](https://github.com/stevearc/oil.nvim)
 
 ## Themes
 Current available themes
