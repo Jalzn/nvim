@@ -7,7 +7,6 @@ local opts = { noremap = true, silent = true }
 M.setup = function()
   -- Telescope
   vim.keymap.set('n', '<leader>ff', '<CMD>Telescope find_files<CR>', opts)
-  vim.keymap.set('n', '<leader>fd', '<CMD>Telescope treesitter<CR>', opts)
 
   -- Harpoon
   vim.keymap.set("n", "<leader>a", function() require("harpoon"):list():append() end)
@@ -15,6 +14,9 @@ M.setup = function()
 
   -- Oil
   vim.keymap.set("n", "<C-p>", "<CMD>Oil --float<CR>", opts)
+
+  -- Aerial
+  vim.keymap.set("n", "<leader>fd", "<cmd>AerialNavToggle<CR>")
 
   -- LSP
   vim.keymap.set('n', 'gd', vim.lsp.buf.definition, opts)
